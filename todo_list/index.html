@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>To Do List</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="/css/style.css">
+    </head>
+
+    <body class="row bg-dark justify-content-center">
+        <div class="column m-4" style="background-color: Gray; width: 50%;">
+            <div class="row text-center bg-primary text-light mb-3">
+                <h3>To Do List</h3>
+            </div>
+            <div class="row mb-3 align-items-center">
+                <label for="inputTask" class="col-2 text-light"> 
+                    <h4 class="text-end">Task</h4>
+                </label>
+                <input type="text" class="col-form-control col-6" id="inputTask"/>
+                <button class="btn btn-success col-3 btn-sm mx-3" id="addTask">Add</button>
+            </div>
+
+           
+            <ul class="taskList text-light">
+            </ul>
+            
+        </div>
+        <script src="/js/todo.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    </body>
+</html>
